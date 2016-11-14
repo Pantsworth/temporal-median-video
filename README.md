@@ -4,7 +4,7 @@ Python program for processing a temporal median filter effect across a set of fr
 <br><br>
 **Usage:**
 
-`python temporal_median.py -i "<set_of_frames>" -o "<output_path>" -l <number of frames to process> -offset <length of filter in frames> -simul <frames to process simultaneously> `
+`python temporal_median.py -i "<set_of_frames>" -o "<output_path>" -l <number of frames to process> -offset <length of filter in frames> -simul <frames to process simultaneously> -v <(0 or 1) encode frames into h.264 video>`
 
 <br>
 **Surfing Example:**
