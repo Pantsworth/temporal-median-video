@@ -7,7 +7,7 @@ Python program for processing a temporal median filter effect across a set of fr
 `python temporal_median.py -i "<set_of_frames>" -o "<output_path>" -l <number of frames to process> -offset <length of filter in frames> -simul <frames to process simultaneously> `
 
 <br>
-**Example:**
+**Surfing Example:**
 <br>
 <br>
 Original:<br>
@@ -19,7 +19,7 @@ TMF:<br>
 https://www.youtube.com/watch?v=6K8_iQOxo4w
 
 <br>
-Saigon Traffic Example:
+**Saigon Traffic Example:**
 
 Original: https://www.youtube.com/watch?v=8QCsQnr2w4w
 
