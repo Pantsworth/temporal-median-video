@@ -249,10 +249,17 @@ def temporal_median_filter_multi2(dir_glob, output_dir, limit_frames, output_for
 
     end2 = timer()
     print "\nTotal Time was: %.02f sec. %.02f sec per frame." % (end2-start2, ((end2-start2)/total_frames))
+    return frame_path
 
 
 def median_calc(median_array):
     return numpy.median(median_array[:,:,:,0], axis=0), numpy.median(median_array[:,:,:,1], axis=0), numpy.median(median_array[:,:,:,2], axis=0)
+
+
+def make_a_video(output_dir, output_format, name):
+    if not output_dir.endswith("/"):
+        output_dir += "/"
+    os.system('ffmpeg -r 24 -i ' + output_dir + '%d.' + output_format + ' -c:v libx264 ' + output_dir + name)
 
 
 if __name__ == '__main__':
@@ -269,6 +276,9 @@ if __name__ == '__main__':
     parser.add_argument("-format", "--output_format", default="JPEG", help="Output image format. (optional)")
     parser.add_argument("-simul", "--simultaneous_frames",type=int, default="8",
                         help="Number of frames to process on each iteration (faster performance using more cores)")
+    parser.add_argument("-v", "--video", default=0,
+                        help="Optional: Encode h.264 video of resulting frames (0 or 1. Default is 0)")
 
     args = parser.parse_args()
-    temporal_median_filter_multi2(make_a_glob(args.input_dir), args.output_dir, args.frame_limit, args.output_format, args.frame_offset, args.simultaneous_frames)
+    output_path = temporal_median_filter_multi2(make_a_glob(args.input_dir), args.output_dir, args.frame_limit, args.output_format, args.frame_offset, args.simultaneous_frames)
+    make_a_video(output_path, args.output_format, "TMF.mp4")
