@@ -9,14 +9,13 @@ Python program for processing a temporal median filter effect across a set of fr
 <br>
 **Example:**
 <br>
-Original:<br>
-[<img src="img/gopro_surf_trim.gif" width="500px"/>](https://www.youtube.com/watch?v=LUGksGa4WJA)
-
-TMF:<br>
-[<img src="img/gopro_surf_tmf.gif" width="500px"/>](https://www.youtube.com/watch?v=6K8_iQOxo4w)
-
 <br>
-
+Original:<br>
+[<img src="img/gopro_surf_trim.gif" width="500px"/>](https://www.youtube.com/watch?v=LUGksGa4WJA)<br>
+https://www.youtube.com/watch?v=LUGksGa4WJA
+<br><br>
+TMF:<br>
+[<img src="img/gopro_surf_tmf.gif" width="500px"/>](https://www.youtube.com/watch?v=6K8_iQOxo4w)<br>
 https://www.youtube.com/watch?v=6K8_iQOxo4w
 
 <br>
