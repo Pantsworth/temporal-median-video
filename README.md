@@ -11,12 +11,15 @@ Python program for processing a temporal median filter effect across a set of fr
 <br>
 <br>
 Original:<br>
-[<img src="img/gopro_surf_trim.gif" width="500px"/>](https://www.youtube.com/watch?v=LUGksGa4WJA)<br>
+![Original Surfing](img/gopro_surf_trim.gif)
 https://www.youtube.com/watch?v=LUGksGa4WJA
+<br>
 <br><br>
 TMF:<br>
-[<img src="img/gopro_surf_tmf.gif" width="500px"/>](https://www.youtube.com/watch?v=6K8_iQOxo4w)<br>
+![TMF Surfing](img/gopro_surf_tmf.gif)
+
 https://www.youtube.com/watch?v=6K8_iQOxo4w
+<br>
 
 <br>
 **Saigon Traffic Example:**
@@ -28,8 +31,9 @@ TMF: https://www.youtube.com/watch?v=Yhy1uc9s8IU
 <br><br>
 **Dependencies:**
 
-[PIL] (http://www.pythonware.com/products/pil/)
-[Numpy] (http://www.numpy.org/)
+[Numpy](http://www.numpy.org/)<br>
+[PIL](http://www.pythonware.com/products/pil/)
+
 
 <br>
 
