@@ -11,13 +11,12 @@ Python program for processing a temporal median filter effect across a set of fr
 <br>
 <br>
 Original:<br>
-![Original Surfing](img/gopro_surf_trim.gif)
+<img src="img/gopro_surf_trim.gif" width="500px"/>
 https://www.youtube.com/watch?v=LUGksGa4WJA
 <br>
 <br><br>
 TMF:<br>
-![TMF Surfing](img/gopro_surf_tmf.gif)
-
+<img src="img/gopro_surf_tmf.gif" width="500px"/>
 https://www.youtube.com/watch?v=6K8_iQOxo4w
 <br>
 
