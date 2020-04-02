@@ -1,0 +1,31 @@
+Performance Tracking:
+
+
+****************  FRAME LIMIT 100
+
+simultaneous_Frames: 4, frame_offset: 40, 
+Total Time was: 120.632936001
+
+simultaneous_Frames: 8, frame_offset: 40, 
+Total Time was: 95.2825040817
+
+simultaneous_Frames: 16, frame_offset: 40, 
+Total Time was: 82.4659049511
+
+simultaneous_Frames: 24, frame_offset: 40, 
+Total Time was: 78.9477388859
+
+simultaneous_Frames: 32, frame_offset: 40, 
+Total Time was: 76.7896060944
+
+simultaneous_Frames: 40, frame_offset: 40, 
+Total Time was: 79.9312560558
+
+simultaneous_Frames: 48, frame_offset: 40, 
+Total Time was: 77.5725300312
+
+simultaneous_Frames: 56, frame_offset: 40, 
+Total Time was: 73.6456530094
+
+simultaneous_Frames: 100, frame_offset: 40, 
+Total Time was: 74.7885930538
