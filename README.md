@@ -35,9 +35,12 @@ python temporal_median.py -i img/trimmed_saigon_1.mp4 -v
 ### Surfing Example:
 
 Original:
+
 [<img src="img/gopro_surf_trim.gif" width="500px"/>](https://www.youtube.com/watch?v=LUGksGa4WJA)<br>
 https://www.youtube.com/watch?v=LUGksGa4WJA
+
 TMF:
+
 [<img src="img/gopro_surf_tmf.gif" width="500px"/>](https://www.youtube.com/watch?v=6K8_iQOxo4w)<br>
 https://www.youtube.com/watch?v=6K8_iQOxo4w
 
