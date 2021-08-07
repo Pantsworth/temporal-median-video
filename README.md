@@ -4,7 +4,7 @@ Python program for processing a temporal median filter effect across a set of fr
 <br><br>
 
 ## Installation
-1. Install ffmpeg
+1. Install [ffmpeg](https://www.ffmpeg.org/)
 2. Create a python virtual environment
     ```
     mkdir venv
